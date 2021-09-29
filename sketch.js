@@ -49,9 +49,9 @@ function draw()
 {
   background(51);
   Engine.update(engine);
-  ellipse(ball.position.x,ball.position.y,20);
+  ellipse(ball.position.x,ball.position.y,40);
   rect(ground.position.x,ground.position.y,400,20);
 
-  ellipse(ball2.position.x,ball2.position.y,20);  
-  rect(wall.position.x,wall.position.y,200,20);
+  ellipse(ball2.position.x,ball2.position.y,40);  
+  rect(wall.position.x,wall.position.y,200,10);
 }
